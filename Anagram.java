@@ -1,3 +1,10 @@
+/*
+Input format
+// Two strings on separate lines
+abc   //First String
+dec   //Second String
+*/
+
 import java.io.*;
 import java.util.*;
 import java.text.*;

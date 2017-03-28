@@ -1,3 +1,9 @@
+/*
+Input format
+5 4         // number of elements, number of times to rotate
+1 2 3 4 5   // elements in the array
+*/
+
 import java.io.*;
 import java.util.*;
 import java.text.*;
