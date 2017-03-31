@@ -1,8 +1,10 @@
 /*
 Input format
 // Two strings on separate lines
-abc   //First String
-dec   //Second String
+abcd   //First String
+decb   //Second String
+
+Output: Print the number of characters needed to be removed to make both the strings anagrams
 */
 
 import java.io.*;
