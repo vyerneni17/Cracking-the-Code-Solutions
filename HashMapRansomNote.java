@@ -3,13 +3,14 @@ Input format
 6 4 // number of words in magazine, number of words in ransomNote
 give me one grand today night //Words present in magazine
 give one grand today // Words present in ransomNote
+
+Output: Gives true if all the words in ransomNote are in magazine, else false
 */
 
 import java.util.*;
 
 public class HashMapRansomNote {
     Map<String, Integer> magazineMap;
-    Map<String, Integer> noteMap;
     private String magazine, note;
 
     public HashMapRansomNote(String magazine, String note) {
